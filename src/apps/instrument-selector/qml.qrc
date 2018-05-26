@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>MyButton.qml</file>
+        <file>MyTextField.qml</file>
+        <file>MyComboBox.qml</file>
+        <file>MyLabel.qml</file>
+        <file>helpers.js</file>
+        <file>MyGridLayout.qml</file>
+        <file>MyScrollView.qml</file>
+        <file>BrowseDialog.qml</file>
+        <file>ChooseInstrumentDialog.qml</file>
+        <file>MyListElement.qml</file>
+        <file>MyListModel.qml</file>
+        <file>MyMessageDialog.qml</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file>icon_ins-sel.png</file>
+    </qresource>
+</RCC>

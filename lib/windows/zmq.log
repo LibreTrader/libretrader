@@ -1,0 +1,116 @@
+﻿  ConfigurationType : DynamicLibrary
+  Configuration     : ReleaseDLL
+  PlatformToolset   : v141
+  TargetPath        : C:\src\libzmq\builds\msvc\vs2017\libzmq\..\..\..\..\bin\x64\Release\v141\dynamic\libzmq.dll
+  Option-tweet      : 
+  Option-sodium     : 
+  Option-openpgm    : 
+  Option-gssapi     : 
+  Option-draftapi   : 
+  Option-usepoll    : 
+  precompiled.cpp
+  address.cpp
+  client.cpp
+  clock.cpp
+  ctx.cpp
+  curve_client.cpp
+  curve_server.cpp
+  dealer.cpp
+  decoder_allocators.cpp
+  devpoll.cpp
+  dgram.cpp
+  dish.cpp
+  dist.cpp
+  epoll.cpp
+  err.cpp
+  fq.cpp
+  gather.cpp
+  gssapi_client.cpp
+  gssapi_mechanism_base.cpp
+  gssapi_server.cpp
+  io_object.cpp
+  Generating Code...
+  Compiling...
+  io_thread.cpp
+  ip.cpp
+  ipc_address.cpp
+  ipc_connecter.cpp
+  ipc_listener.cpp
+  kqueue.cpp
+  lb.cpp
+  mailbox.cpp
+  mailbox_safe.cpp
+  mechanism.cpp
+  metadata.cpp
+  msg.cpp
+  mtrie.cpp
+  null_mechanism.cpp
+  object.cpp
+  options.cpp
+  own.cpp
+  pair.cpp
+  pgm_receiver.cpp
+  pgm_sender.cpp
+  Generating Code...
+  Compiling...
+  pgm_socket.cpp
+  pipe.cpp
+  plain_client.cpp
+  plain_server.cpp
+  poll.cpp
+  poller_base.cpp
+  proxy.cpp
+  pub.cpp
+  pull.cpp
+  push.cpp
+  radio.cpp
+  random.cpp
+  raw_decoder.cpp
+  raw_encoder.cpp
+  reaper.cpp
+  rep.cpp
+  req.cpp
+  router.cpp
+  scatter.cpp
+  select.cpp
+  Generating Code...
+  Compiling...
+  server.cpp
+  session_base.cpp
+  signaler.cpp
+  socket_base.cpp
+  socket_poller.cpp
+c:\src\libzmq\src\socket_poller.hpp(78): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  socks.cpp
+  socks_connecter.cpp
+  stream.cpp
+  stream_engine.cpp
+  sub.cpp
+  tcp.cpp
+  tcp_address.cpp
+  tcp_connecter.cpp
+  tcp_listener.cpp
+  thread.cpp
+  timers.cpp
+  trie.cpp
+  udp_address.cpp
+  udp_engine.cpp
+  v1_decoder.cpp
+  Generating Code...
+  Compiling...
+  v1_encoder.cpp
+  v2_decoder.cpp
+  v2_encoder.cpp
+  xpub.cpp
+  xsub.cpp
+  zmq.cpp
+c:\src\libzmq\src\socket_poller.hpp(78): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  zmq_utils.cpp
+c:\src\libzmq\src\zmq_utils.cpp(30): warning C4603: '__STDC_LIMIT_MACROS': macro is not defined or definition is different after precompiled header use
+  c:\src\libzmq\src\zmq_utils.cpp(30): note: Add macro to precompiled header instead of defining here
+  c:\src\libzmq\src\zmq_utils.cpp(32): note: use of precompiled header
+  Generating Code...
+  tweetnacl.c
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1202,5): warning MSB8012: TargetPath(C:\src\libzmq\builds\msvc\vs2017\libzmq\..\..\..\..\bin\x64\Release\v141\dynamic\libzmq.dll) does not match the Linker's OutputFile property value (C:\src\libzmq\bin\x64\Release\v141\dynamic\zmq.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     Creating library C:\src\libzmq\builds\msvc\vs2017\libzmq\..\..\..\..\bin\x64\Release\v141\dynamic\zmq.lib and object C:\src\libzmq\builds\msvc\vs2017\libzmq\..\..\..\..\bin\x64\Release\v141\dynamic\zmq.exp
+  libzmq.vcxproj -> C:\src\libzmq\builds\msvc\vs2017\libzmq\..\..\..\..\bin\x64\Release\v141\dynamic\libzmq.dll

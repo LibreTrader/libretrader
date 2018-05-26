@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file>icon_lt.png</file>
+        <file>icon_dom.png</file>
+        <file>icon_ins-sel.png</file>
+    </qresource>
+</RCC>
